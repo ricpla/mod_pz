@@ -8,7 +8,7 @@ module Base
         zombieType = Generic01;Generic02;Generic03;Generic04;Generic05,
         model
         {
-            file = Vehicles_CarTaxi,
+            file = Vehicles_CarMatiz,
             scale = 1.82,
             offset = 0.0 0.2527 0.0,
         }
