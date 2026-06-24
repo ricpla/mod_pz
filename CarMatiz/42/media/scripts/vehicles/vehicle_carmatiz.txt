@@ -14,7 +14,7 @@ module Base
         }
         skin
         {
-            texture = Vehicles/vehicle_cartaxishell,
+            texture = Vehicles/vehicle_carmatizshell,
         }
         sound
         {
