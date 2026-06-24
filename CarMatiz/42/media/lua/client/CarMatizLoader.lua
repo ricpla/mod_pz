@@ -1,17 +1,13 @@
-local MOD_ID = "CarMatiz"
-
 local function CarMatiz_LoadModels()
-    local dir = getDir(MOD_ID)
-
-    print("[CarMatiz] Mod dir: " .. tostring(dir))
+    print("[CarMatiz] Loading vehicle model")
 
     loadVehicleModel(
         "Vehicles_CarMatiz",
-        dir .. "/42/media/models/Vehicles_CarMatiz.txt",
-        dir .. "/42/media/textures/Vehicles/vehicle_carmatizshell.png"
+        "media/models/Vehicles_CarMatiz.txt",
+        "media/textures/Vehicles/vehicle_carmatizshell.png"
     )
 
-    print("[CarMatiz] Vehicles_CarMatiz loaded")
+    print("[CarMatiz] Vehicles_CarMatiz load requested")
 end
 
 Events.OnInitWorld.Add(CarMatiz_LoadModels)
