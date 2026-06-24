@@ -1,5 +1,13 @@
 module Base
 {
+
+    model carmatizBase
+    {
+        mesh = vehicles/Vehicles_CarMatiz_Body,
+        shader = vehicle,
+        scale = 1,
+    }
+
     vehicle CarMatiz
     {
         mechanicType = 1,
@@ -8,13 +16,13 @@ module Base
         zombieType = Generic01;Generic02;Generic03;Generic04;Generic05,
         model
         {
-            file = Vehicles_CarMatiz,
-            scale = 1.82,
-            offset = 0.0 0.2527 0.0,
+            file = CarMatizBase,
+            scale = 1.0,
+            offset = 0.0000 0.3778 0.0000,
         }
         skin
         {
-            texture = Vehicles/vehicle_carmatizshell,
+            texture = Vehicles/Vehicles_CarMatiz_Shell,
         }
         sound
         {
